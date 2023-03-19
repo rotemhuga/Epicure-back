@@ -7,7 +7,7 @@ import { connectToDB } from "./connections";
 import dotenv from "dotenv"
 dotenv.config() 
 
-app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(cors());
 
