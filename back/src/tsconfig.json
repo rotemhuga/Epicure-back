@@ -1,0 +1,14 @@
+{
+    "extends": "@tsconfig/node16/tsconfig.json", 
+    "compilerOptions": {
+    "module": "commonjs",  
+    "target": "esnext",
+    "jsx": "react-native",
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["*", "src/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+} 
