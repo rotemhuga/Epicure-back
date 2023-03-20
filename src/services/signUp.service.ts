@@ -8,6 +8,6 @@ try {
     await _userSign.save();
         return _userSign
     } catch (e) {
-        throw Error('Error while Paginating Users')
+        throw Error('Error')
     }
 };
